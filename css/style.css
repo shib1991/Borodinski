@@ -22,6 +22,7 @@ h2 {
 body {
     font-family: PT Sans Narrow;
     background-image: url(/src/img/background/Background.png);
+    background-repeat:no-repeat;
     color: aliceblue;
     background-size: cover;
     margin: 0;
