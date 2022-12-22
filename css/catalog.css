@@ -338,7 +338,11 @@ body {
 
 }
 
-.Grouping_Directory {}
+.Grouping_Directory {
+    width: 167px;
+    margin: 0px;
+    padding: 0px;
+}
 
 .Grouping_container {
     margin-top: 28px;
@@ -349,6 +353,8 @@ body {
 
 .Group_category {
     display: inline-flex;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -416,8 +422,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    left: 15%;
-    top: 15%;
+    left: 25%;
+    top: 25%;
     transform: scale(0);
     transition: 0.2s ease-in;
 }
@@ -427,6 +433,11 @@ body {
 }
 
 .Group_radio{
+    opacity: 0px;
+    position: absolute;
+    z-index: -1;
+    margin: 3px;
+    padding: 0px;
 }
 
 
