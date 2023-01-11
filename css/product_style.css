@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Sans+Narrow:wght@400;700&family=Work+Sans:wght@100&display=swap');
+
+.Catalog {
+    font-family: PT Sans Narrow;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F6F3;
+}
+
+
+.Catalog__header {
+    background: #000000;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.Logo {
+    margin-top: 23px;
+    padding: 0px;
+}
+
+.Catalog_Top_Menu {
+    padding: 0px;
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+p {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: PT Sans Narrow;
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    width: 940px;
+    margin: 54px auto;
+    padding: 0px;
+}
+
+.Menu_Items {
+    margin: 26px 0px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.Catalog_Menu_Logo {
+    display: flex;
+}
+
+.Menu_Item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.Header_Login {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.Login_icon {
+    height: 14px;
+    width: 14px;
+}
+
+.Login_text {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    color: aliceblue;
+}
+
+.Navigation_box {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation_header_text {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.Navigation {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.Navigation_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+
+.Navigation_text_active {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ABA9A7;
+}
+
+
+
+
+/*  BUY BUTTON====================================================== */
+
+.Price_Button {
+    width: 187px;
+    border: none;
+    display: flex;
+    background-color: #E5E5E5;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.Item_Value {
+    margin: 0 auto;
+    background: #E5E5E5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.Buy_Button {
+    width: 78px;
+    height: 43px;
+    background-color: #000000;
+    border: 0px;
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+/*  BUY BUTTON====================================================== */
+
+.Product_box {
+    width: 939px;
+    margin-top: 53px;
+    display: flex;
+    gap: 89px;
+ 
+}
+
+.Product_photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 460px;
+    
+}
+
+.Product_Img{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.Productr_description {
+    margin-top: 13px;
+}
+.Product_status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:29px;
+}
+.Product_h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.Availability {
+    font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+.Article {
+}
+.Article_id {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #AEAEAE;
+}
+.About_Product {
+}
+.Product_review {
+    height: 178px;
+    margin-bottom: 2px;
+    font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.Product_Equipment {
+    margin-top: 62px;
+}
+.Equipment {
+    margin-top: 25px;
+}
+.Product_li {
+    margin:0 14px 0 0;
+    padding: 0px;
+}
+.Equipment_text {
+    margin-left: 9px;
+    font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------ */
+
+
+.Footer {
+    margin-top: 49px;
+    background: #1A1A1A;
+    color: white;
+    padding: 0px;
+}
+
+.footer_container {
+    width: 900px;
+    margin: 65px auto 0px;
+    display: flex;
+    padding: 59px 0 38px 0;
+}
+
+.footer_adress {
+    margin-right: 27px;
+}
+
+.footer_adress_text {
+    width: 373px;
+    font-family: PT Sans Narrow;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.socials_block {}
+
+.socials_text {
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: PT Sans Narrow;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+
+}
+
+.socials {
+    display: flex;
+    gap: 6px;
+}
+
+.VK {}
+
+.Facebook {}
+
+.Instagram {}
+
+.html_academy {
+    margin-left: 259px;
+}
+
+.developers {
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: PT Sans Narrow;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.html_academy_button {
+    width: 140px;
+    background-color: #000000;
+    border: 0px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.html_academy_button_text {
+    font-family: PT Sans Narrow;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+}

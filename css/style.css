@@ -35,19 +35,21 @@ body {
 }
 
 .Top_Menu {
+    margin: 0 auto;
+    width: 940px;
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
 }
 
 .Menu_Items {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     display: flex;
     gap: 40px;
 }
 
 
-.Items {
+.Item {
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -57,10 +59,14 @@ body {
 
 }
 
+.Header_Login{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
 .Login_icon {
     height: 14px;
     width: 14px;
-    margin: 0 12px 0 333px;
 }
 
 .Login_text {
