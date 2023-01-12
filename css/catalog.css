@@ -65,11 +65,7 @@ body {
 }
 
 .container {
-<<<<<<< HEAD
-    width: 940px;
-=======
     width: 947px;
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
     margin: 51px auto;
     padding: 0px;
 }
@@ -102,11 +98,8 @@ body {
     align-items: center;
 }
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 .Login_icon {
     height: 14px;
     width: 14px;
@@ -162,21 +155,13 @@ body {
 }
 
 .h2_header {
-<<<<<<< HEAD
-=======
     font-family: 'PT Sans Narrow';
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     color: #000000;
-<<<<<<< HEAD
-    margin: 0px;
-    padding: 0px;
-=======
     white-space: nowrap;
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 }
 
 .product_container {
@@ -185,22 +170,6 @@ body {
 
 
 .main_container {
-<<<<<<< HEAD
-    width: 940px;
-    margin-top: 49px;
-    display: flex;
-    gap: 73px;
-    padding: 0px;
-}
-
-.Filters_Groups {
-    width: 167px;
-    margin: 0px;
-    padding: 0px;
-}
-
-.Catalog_Filters {
-=======
     width: 947px;
     margin-top: 49px;
     display: flex;
@@ -210,7 +179,6 @@ body {
 }
 
 .Grouping_Directory {
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
     margin: 0px;
     padding: 0px;
 }
@@ -230,15 +198,12 @@ body {
     padding: 0px;
 }
 
-<<<<<<< HEAD
-=======
 .Item_box {
     width: 700px;
     margin: 0px;
     padding: 0px;
 }
 
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 .Items_container {
     display: flex;
     gap: 20px;
@@ -310,10 +275,6 @@ body {
     gap: 7px;
 }
 
-<<<<<<< HEAD
-.Page {
-    width: 43px;
-=======
 .Inactive_Page {
     text-align: center;
     width: 43px;
@@ -326,7 +287,6 @@ body {
     width: 43px;
     height: 43px;
     background: white
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 }
 
 .Page_Number {
@@ -336,33 +296,15 @@ body {
     line-height: 18px;
 }
 
-<<<<<<< HEAD
-.Inactive_Page {
-    background: #000000;
-}
-
-.Inactive_Number {
-    color: white;
-}
-
-.Active_Page {
-    background: white;
-}
-
-.Active_Number {
-=======
 .Inactive {
     color: white;
 }
 
 .Active {
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
     color: #000000;
 }
 
 
-<<<<<<< HEAD
-=======
 .Filters_Groups {
     width: 167px;
     display: flex;
@@ -414,25 +356,10 @@ body {
     margin: 0;
     padding: 0;
 }
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 
 
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 .custom_checkbox {
     position: relative;
     display: inline-block;
@@ -512,7 +439,6 @@ body {
     margin: 3px;
     padding: 0px;
 }
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 
 
 
@@ -647,8 +573,6 @@ body {
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
-<<<<<<< HEAD
-=======
 }
 
 
@@ -671,5 +595,4 @@ body {
     text-align: center;
     color: #FFFFFF;
     padding: 10px;
->>>>>>> 92c602026d9bde26b4668c039c42a5d9c072f7c7
 }
