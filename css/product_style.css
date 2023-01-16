@@ -2,10 +2,9 @@
 
 .Catalog {
     font-family: PT Sans Narrow;
-    background-size: cover;
     margin: 0;
     padding: 0;
-    background-color: #F9F6F3;
+    background-image: url("/src/img/background/123.png");
 }
 
 

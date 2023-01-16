@@ -2,15 +2,14 @@
 
 .Catalog {
     font-family: PT Sans Narrow;
-    background-size: cover;
     margin: 0;
     padding: 0;
-    background-color: #F9F6F3;
+    background-image: url("/src/img/background/123.png");
 }
 
 
 .Catalog__header {
-    background: #000000;
+    background-image: url("/src/img/background/black.png");
     padding: 0px;
     margin: 0px;
 
@@ -313,7 +312,7 @@ body {
 
 .Footer {
     margin-top: 49px;
-    background: #1A1A1A;
+    background-image: url("/src/img/background/black.png");
     color: white;
     padding: 0px;
 }

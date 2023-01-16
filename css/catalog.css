@@ -2,15 +2,14 @@
 
 .Catalog {
     font-family: PT Sans Narrow;
-    background-size: cover;
     margin: 0;
     padding: 0;
-    background-color: #F9F6F3;
+    background-image: url("/src/img/background/123.png");
 }
 
 
 .Catalog__header {
-    background: #000000;
+    background-image: url("/src/img/background/black.png");
     padding: 0px;
     margin: 0px;
 
@@ -263,47 +262,33 @@ body {
 }
 
 
-.Catalog__Pages_Navigation {
-    width: 193px;
+.pagination {
     margin-top: 45px;
 }
 
-.Catalog__Pages {
-    margin: 0px;
-    padding: 0px;
+.pagination-items {
     display: flex;
     gap: 7px;
+    margin: 0;
+    padding: 0;
 }
 
-.Inactive_Page {
-    text-align: center;
+.pagination-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 43px;
     height: 43px;
-    background: #000000;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
 }
 
-.Active_Page {
-    text-align: center;
-    width: 43px;
-    height: 43px;
-    background: white
+.pagination-link:hover,
+.pagination-link-active {
+    color: #000;
+    background-color: #fff;
 }
-
-.Page_Number {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.Inactive {
-    color: white;
-}
-
-.Active {
-    color: #000000;
-}
-
 
 .Filters_Groups {
     width: 167px;
@@ -488,7 +473,7 @@ body {
 
 .Footer {
     margin-top: 49px;
-    background: #1A1A1A;
+    background-image: url("/src/img/background/black.png");
     color: white;
     padding: 0px;
 }
